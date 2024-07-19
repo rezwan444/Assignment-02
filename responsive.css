@@ -1,0 +1,163 @@
+@media screen and (max-width:576px) {
+
+  /* header section start */
+
+  .header-main {
+    padding: 0;
+    margin: 0;
+    opacity: 100%;
+    height: auto;
+  }
+
+  .menu-section-main-list {
+    display: none;
+  }
+
+  .menu-section-main-title {
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+
+  .bar {
+    display: block;
+    font-size: 30px;
+    padding-right: 50px;
+    margin-top: 10px;
+  }
+
+  .bannner-content-section {
+    padding-left: 19px;
+    padding-right: 25px;
+  }
+
+  .banner-section {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .banner-content-title {
+    font-size: 2rem;
+  }
+
+  .banner-content-description {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    opacity: 40%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 30px;
+    opacity: 90%;
+  }
+
+  .btn-secondary {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    opacity: 90%;
+  }
+
+  .btn {
+    margin-left: 50px;
+  }
+
+  .hide2 {
+    display: none;
+  }
+
+  .banner-content-image {
+    margin: 0 auto;
+
+  }
+
+  .float-notification1 {
+    width: 180px;
+    height: 80px;
+    background-color: rgb(44, 44, 44);
+    padding: 6px 22px;
+    margin-top: -480px;
+    margin-left: 170px;
+  }
+
+  .float-notification1>h2 {
+    font-size: 2rem;
+  }
+
+  .float-notification1>p {
+    font-size: 0.71rem;
+    opacity: 50%;
+  }
+
+
+  .float-notification2 {
+    width: 213px;
+    height: 80px;
+    background-color: rgb(38, 38, 38);
+    padding: 20px 20px;
+    margin-left: -40px;
+    margin-top: -300px;
+  }
+
+  /* header section end */
+
+  /* first content start */
+  .first-content-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .first-content-description {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    opacity: 60%;
+  }
+
+  .gym-exercise {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+  }
+
+  /* first content end */
+
+  /* second section start */
+  .second-section {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .second-section-part1 h1 {
+    font-size: 2.8rem;
+  }
+
+  .second-section p {
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+
+  .second-section .btn-primary {
+    margin: 10px auto;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .second-section-image{
+    background-image: url('images/run.jpg');
+    width: 90%;
+    margin: 20px auto;
+    height: 200px;
+}
+  /* second section end */
+
+}
