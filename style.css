@@ -1,5 +1,8 @@
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
 
 * {
     margin: 0;
@@ -48,9 +51,8 @@ body {
     border: 1px solid rgb(42, 41, 41);
     border-radius: 40px;
     align-items: center;
-    width: 430px;
-    height: 46px;
-    padding-left: 5px;
+    padding-left: 3px;
+    padding-right: 25px;
 }
 
 
@@ -58,7 +60,7 @@ body {
     background-color: tomato;
     border-radius: 46px;
     text-align: center;
-    padding: 10px;
+    padding: 8px 30px;
 }
 
 .menu-section-maim-list,
@@ -72,8 +74,6 @@ a {
 }
 
 .bar {
-    width: 24px;
-    height: 24px;
     display: none;
 }
 
@@ -85,7 +85,20 @@ a {
 .banner-content-title {
     font-size: 4.8rem;
     font-weight: 900;
-    margin-top: 70px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.shape{
+    position: absolute;
+    top: 30px;
+    font-family: 'Miama', sans-serif;
+    font-size: 10rem;
+    font-weight: normal;
+}
+
+.stay{
+    padding-left: 230px;
 }
 
 .banner-content-description {
@@ -95,7 +108,7 @@ a {
     opacity: 60%;
 }
 
-.large-hide {
+.ld-hide{
     display: none;
 }
 
@@ -117,14 +130,14 @@ a {
     border-radius: 40px;
     font-size: 1.12rem;
     font-weight: 500;
-    border: 1px solid gray;
+    border: 2px solid white;
     padding: 14px 25px;
     color: white;
     cursor: pointer;
 }
 
 .banner-content-image {
-    margin-top: 30px;
+    margin-top: 33px;
     margin-right: 30px;
 }
 
@@ -262,7 +275,7 @@ p {
     font-size: 1rem;
 }
 
-.second-section-part1{
+.second-section-part1 {
     padding-left: 20px;
     padding-top: 15px;
 }
@@ -273,7 +286,7 @@ p {
     font-weight: 500;
 }
 
-.second-section-image{
+.second-section-image {
     background-image: url('images/run.jpg');
     height: 300px;
     width: 40%;
@@ -283,3 +296,278 @@ p {
 
 /* second content end */
 
+/* third section start */
+
+.bmi-title {
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.bmi-title > h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+}
+
+.bmi-title > p {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    opacity: 50%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.third-section{
+    background-color: #222222;
+    max-width: 1420px;
+    margin: 0 auto;
+    opacity: 90%;
+}
+
+.third-content-section{
+    color: white;
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.third-table-section{
+    width: 45%;
+}
+
+
+.table-title, .form-title{
+    margin-top: 60px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+table{
+    margin-top: 60px;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+table, tr, th, td{
+    padding: 15px;
+}
+
+td{
+    opacity: 60%;
+}
+
+.third-form-section{
+    width: 50%;
+}
+
+.form-description{
+    margin-top: 20px;
+    opacity: 60%;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.form-part1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 49%;
+    padding: 18px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 1.12rem;
+    color: white;
+    background-color: #383837;
+}
+
+.form-sub-part2{
+    width: 49%;
+    margin-left: 8px;
+    padding: 18px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 1.12rem;
+    color: white;
+    background-color: #383837;
+}
+
+.form-part3{
+    width: 100%;
+    margin-top: 10px;
+    padding: 18px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 1.12rem;
+    color: white;
+    background-color: #383837;
+}
+
+select , option{
+    opacity: 50%;
+}
+
+.calculate{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 30px;
+    padding: 15px 70px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* third section end */
+
+/* fourth content start */
+.fourth-content-section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.our-team {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    opacity: 80%;
+}
+
+.team-details {
+    font-size: 1rem;
+    opacity: 50%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.team-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: rgb(33, 34, 34);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.teacher {
+    position: relative;
+    width: 410px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+.traine-teacher-name {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.trainee {
+    opacity: 70%;
+    font-weight: 500;
+}
+
+.position {
+    position: absolute;
+    text-align: justify;
+    margin-top: -70px;
+    margin-left: 40px;
+}
+
+.team-section-sub {
+    margin-top: -42px;
+}
+
+/* fourth content end */
+
+/* footer section start */
+
+footer {
+    max-width: 1420px;
+    margin: 0 auto;
+    background-color: rgb(21, 22, 23);
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    opacity: 80%;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    gap: 220px;
+}
+
+.footer-title > a {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    cursor: pointer;
+}
+
+.footer-content {
+    margin-top: 30px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    opacity: 50%;
+}
+
+.get-started {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-anchor .footer-anchor-another {
+    margin-top: 20px;
+    opacity: 50%;
+    letter-spacing: 1px;
+    font-size: 1.12rem;
+}
+
+.another {
+    opacity: 50%;
+    letter-spacing: 1px;
+    font-size: 1.12rem;
+}
+
+hr {
+    margin-top: 50px;
+    opacity: 20%;
+}
+
+.copy-right {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    opacity: 50%;
+    font-size: 1.12rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+/* footer section end */
