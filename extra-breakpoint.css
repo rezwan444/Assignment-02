@@ -1,0 +1,14 @@
+@media screen and (max-width: 425px){
+    .extra{
+        display: block;
+    }
+
+    .banner-content-title{
+        position: relative;
+    }
+
+    .stay{
+        position: absolute;
+        top: 40px;
+    }
+}

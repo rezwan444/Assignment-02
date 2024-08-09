@@ -20,13 +20,12 @@ body {
 /* header section start */
 
 .header-main {
-    background-color: rgb(25, 25, 25);
+    background-image: linear-gradient(to left top, #111111,#222222);
     color: white;
     padding: 80px 150px;
     max-width: 1440px;
     height: 700px;
     margin: 0 auto;
-    opacity: 80%;
 }
 
 .menu-section-main {
@@ -112,6 +111,10 @@ a {
     display: none;
 }
 
+.btn{
+    display: flex;
+}
+
 .btn-primary {
     background-color: tomato;
     border-radius: 40px;
@@ -133,8 +136,11 @@ a {
     border: 2px solid white;
     padding: 14px 25px;
     color: white;
+    margin-right: 15px;
+    margin-top: 32px;
     cursor: pointer;
 }
+
 
 .banner-content-image {
     margin-top: 33px;
@@ -150,7 +156,7 @@ a {
     position: absolute;
     width: 200px;
     height: 90px;
-    background-color: rgb(53, 51, 51);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 8px 25px;
     margin-top: -420px;
@@ -173,7 +179,7 @@ a {
     position: absolute;
     width: 220px;
     height: 90px;
-    background-color: rgb(53, 51, 51);
+    background-color: rgba(48, 48, 48, 0.54);
     border-radius: 12px;
     padding: 20px 25px;
     margin-left: -155px;
@@ -247,8 +253,7 @@ a {
 
 /* second content start */
 .second-section {
-    justify-content: center;
-    background-color: rgb(37, 35, 35);
+    background-color: rgba(34, 34, 34, 1);
     display: flex;
     justify-content: space-between;
     max-width: 1300px;
@@ -259,7 +264,7 @@ a {
 }
 
 
-.second-section h1,
+.second-section  h1,
 p {
     color: white;
 }
@@ -269,10 +274,11 @@ p {
     font-weight: 700;
 }
 
-.second-section p {
+.second-section  p {
     margin-top: 20px;
     opacity: 70%;
     font-size: 1rem;
+    letter-spacing: 1px;
 }
 
 .second-section-part1 {
@@ -280,10 +286,17 @@ p {
     padding-top: 15px;
 }
 
-.second-section .btn-primary {
-    padding: 15px 60px;
-    font-size: 1.2rem;
+.second-section .btn-primary2 {
+    background-color: tomato;
+    border-radius: 40px;
+    font-size: 1.3rem;
     font-weight: 500;
+    border: none;
+    padding: 14px 60px;
+    color: white;
+    margin-right: 15px;
+    margin-top: 32px;
+    cursor: pointer;
 }
 
 .second-section-image {
@@ -300,8 +313,7 @@ p {
 
 .bmi-title {
     margin-top: 100px;
-    text-align: center;
-    align-items: center;
+    padding-left: 25%;
 }
 
 .bmi-title > h1 {
@@ -313,14 +325,14 @@ p {
 .bmi-title > p {
     font-size: 1rem;
     letter-spacing: 0.5px;
-    line-height: 24px;
+    line-height: 26px;
     opacity: 50%;
     margin-top: 20px;
     margin-bottom: 100px;
 }
 
 .third-section{
-    background-color: #222222;
+    background-color: rgba(34, 34, 34, 1);
     max-width: 1420px;
     margin: 0 auto;
     opacity: 90%;
@@ -384,37 +396,38 @@ form{
 
 input{
     width: 49%;
-    padding: 18px;
+    padding: 12px;
     border-radius: 12px;
     border: none;
     outline: none;
     font-size: 1.12rem;
     color: white;
-    background-color: #383837;
+    background-color: rgba(255, 255, 255, 0.1);
 }
+
 
 .form-sub-part2{
     width: 49%;
     margin-left: 8px;
-    padding: 18px;
+    padding: 12px;
     border-radius: 12px;
     border: none;
     outline: none;
     font-size: 1.12rem;
     color: white;
-    background-color: #383837;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .form-part3{
     width: 100%;
     margin-top: 10px;
-    padding: 18px;
+    padding: 12px;
     border-radius: 12px;
     border: none;
     outline: none;
     font-size: 1.12rem;
     color: white;
-    background-color: #383837;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 select , option{
@@ -447,12 +460,12 @@ select , option{
     color: white;
     font-size: 3rem;
     font-weight: 600;
-    opacity: 80%;
+    opacity: 90%;
 }
 
 .team-details {
     font-size: 1rem;
-    opacity: 50%;
+    opacity: 60%;
     margin-top: 20px;
     margin-bottom: 70px;
     letter-spacing: 0.5px;
@@ -506,7 +519,7 @@ select , option{
 footer {
     max-width: 1420px;
     margin: 0 auto;
-    background-color: rgb(21, 22, 23);
+    background-color: rgba(255, 255, 255, 0.1);
     padding-top: 50px;
     text-align: center;
     padding-left: 90px;

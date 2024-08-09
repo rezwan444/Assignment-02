@@ -1,0 +1,368 @@
+@media only screen and (max-width: 425px) {
+    /* menu section start */
+
+    body,
+    .header-main {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .menu-section-main {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+
+    .menu-section-main-title>a {
+        font-size: 1.5rem;
+    }
+
+    .menu-section-main-list {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    /* menu section end */
+
+    /* banner section start */
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .banner-content-title {
+        font-size: 2.25rem;
+        font-weight: 900;
+        margin-top: 40px;
+        padding-left: 20px;
+        position: relative;
+
+    }
+
+    .shape {
+        position: absolute;
+        top: 10px;
+        font-size: 5rem;
+        left: 20px;
+    }
+
+    .stay {
+        padding-left: 120px;
+    }
+
+    .banner-content-description {
+        font-size: 1rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-wrap: wrap;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .hide2 {
+        display: none;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 14px 30px;
+        margin-left: 20px;
+    }
+
+    .btn-secondary {
+        font-size: 1rem;
+        padding: 14px 15px;
+        border: 1px solid white;
+    }
+
+    .banner-image {
+        position: relative;
+        height: 425px;
+    }
+
+    .banner-content-image {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .float-notification1 {
+        position: absolute;
+        width: 145px;
+        height: 60px;
+        padding: 6px 15px;
+        margin-top: -400px;
+        margin-left: 135px;
+    }
+
+    .float-notification1>h2 {
+        font-size: 1.5rem;
+    }
+
+    .float-notification1>p {
+        font-size: 0.6rem;
+    }
+
+    .float-notification2 {
+        width: 155px;
+        height: 65px;
+        border-radius: 12px;
+        padding: 20px 10px;
+        margin-left: -10px;
+        margin-top: -250px;
+    }
+
+    .video-tutorial-numbers {
+        font-size: 1.5rem;
+        margin-top: -10px;
+    }
+
+    .tutorials {
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+        opacity: 90%;
+    }
+
+    .circle {
+        border-radius: 50%;
+        margin-top: -5px;
+        width: 30px;
+        height: 30px;
+        background-color: tomato;
+    }
+
+    /* banner section end */
+
+    /* main content section start */
+
+    /* first content */
+    .first-content-title {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    .gym-exercise {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+        gap: 50px;
+    }
+
+    /* first content */
+
+    /* second content */
+    .second-section {
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 60px;
+    }
+
+    .second-section-part1>h1 {
+        font-size: 2rem;
+    }
+
+    .second-section-part1>p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+
+    .second-section .btn-primary2 {
+        width: 100%;
+    }
+
+    .second-section-image {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 30px;
+    }
+
+    /* second content */
+
+    /* third content */
+    .third-content-section {
+        margin-top: -50px;
+    }
+
+    .bmi-title {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bmi-title>h1 {
+        font-size: 2rem;
+        margin-top: -30px;
+        text-align: justify;
+        padding-left: 20px;
+    }
+
+    .bmi-title>p {
+        font-size: 1rem;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        letter-spacing: 1px;
+    }
+
+    .br {
+        display: none;
+    }
+
+    .third-content-section {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .table-title {
+        margin-top: 10px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: -40px;
+    }
+
+
+    .third-table-section {
+        width: 100%;
+    }
+
+    th {
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    .form-title {
+        margin-top: -80px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .third-form-section {
+        width: 100%;
+    }
+
+    /* .form-part1{
+        flex-direction: column;
+        gap: 12px;
+    } */
+
+    input {
+        width: 49%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .form-part2 {
+        display: flex;
+    }
+
+    .form-sub-part2 {
+        width: 49%;
+        margin-left: 8px;
+        padding: 12px;
+    }
+
+    .calculate {
+        font-size: 1.2rem;
+        padding: 10px 50px;
+    }
+
+    /* third content */
+
+
+    /* fourth content */
+
+    .fourth-content-section {
+        margin-top: 60px;
+        margin-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .our-team {
+        font-size: 2rem;
+    }
+
+    .team-details {
+        font-size: 0.7rem;
+    }
+
+    .team-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .teacher {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .traine-teacher-name {
+        font-size: 1rem;
+        color: white;
+        font-weight: 600;
+    }
+
+    .position {
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+
+
+    /* fourth content */
+
+    /* main content section end */
+
+    /* footer section start */
+
+    footer {
+        margin-top: -50px;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+
+    .footer-title>a {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .footer-content {
+        text-align: justify;
+        font-size: 0.8rem;
+        letter-spacing: normal;
+    }
+
+    .small-hide {
+        display: none;
+    }
+
+
+    .footer-section {
+        flex-direction: column;
+        padding-left: 10px;
+        gap: 70px;
+    }
+
+
+    /* footer section end */
+
+}
