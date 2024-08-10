@@ -20,7 +20,7 @@ body {
 /* header section start */
 
 .header-main {
-    background-image: linear-gradient(to left top, #111111,#222222);
+    background-image: linear-gradient(to left top, #111111, #222222);
     color: white;
     padding: 80px 150px;
     max-width: 1440px;
@@ -34,7 +34,7 @@ body {
     justify-content: space-between;
 }
 
-.menu-section-main-title > a {
+.menu-section-main-title>a {
     font-size: 2.25rem;
     font-weight: 900;
     font-style: italic;
@@ -88,7 +88,7 @@ a {
     position: relative;
 }
 
-.shape{
+.shape {
     position: absolute;
     top: 30px;
     font-family: 'Miama', sans-serif;
@@ -96,7 +96,7 @@ a {
     font-weight: normal;
 }
 
-.stay{
+.stay {
     padding-left: 230px;
 }
 
@@ -107,11 +107,11 @@ a {
     opacity: 60%;
 }
 
-.ld-hide{
+.ld-hide {
     display: none;
 }
 
-.btn{
+.btn {
     display: flex;
 }
 
@@ -264,7 +264,7 @@ a {
 }
 
 
-.second-section  h1,
+.second-section h1,
 p {
     color: white;
 }
@@ -274,7 +274,7 @@ p {
     font-weight: 700;
 }
 
-.second-section  p {
+.second-section p {
     margin-top: 20px;
     opacity: 70%;
     font-size: 1rem;
@@ -316,13 +316,13 @@ p {
     padding-left: 25%;
 }
 
-.bmi-title > h1 {
+.bmi-title>h1 {
     font-size: 3rem;
     color: white;
     font-weight: 800;
 }
 
-.bmi-title > p {
+.bmi-title>p {
     font-size: 1rem;
     letter-spacing: 0.5px;
     line-height: 26px;
@@ -331,14 +331,14 @@ p {
     margin-bottom: 100px;
 }
 
-.third-section{
+.third-section {
     background-color: rgba(34, 34, 34, 1);
     max-width: 1420px;
     margin: 0 auto;
     opacity: 90%;
 }
 
-.third-content-section{
+.third-content-section {
     color: white;
     display: flex;
     max-width: 1300px;
@@ -346,18 +346,19 @@ p {
     justify-content: space-between;
 }
 
-.third-table-section{
+.third-table-section {
     width: 45%;
 }
 
 
-.table-title, .form-title{
+.table-title,
+.form-title {
     margin-top: 60px;
     font-size: 2rem;
     font-weight: 700;
 }
 
-table{
+table {
     margin-top: 60px;
     border-collapse: collapse;
     border: 1px solid lightgray;
@@ -365,36 +366,39 @@ table{
     margin-bottom: 100px;
 }
 
-table, tr, th, td{
+table,
+tr,
+th,
+td {
     padding: 15px;
 }
 
-td{
+td {
     opacity: 60%;
 }
 
-.third-form-section{
+.third-form-section {
     width: 50%;
 }
 
-.form-description{
+.form-description {
     margin-top: 20px;
     opacity: 60%;
     letter-spacing: 0.5px;
     line-height: 26px;
 }
 
-form{
+form {
     margin-top: 30px;
 }
 
-.form-part1{
+.form-part1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-input{
+input {
     width: 49%;
     padding: 12px;
     border-radius: 12px;
@@ -406,7 +410,7 @@ input{
 }
 
 
-.form-sub-part2{
+.form-sub-part2 {
     width: 49%;
     margin-left: 8px;
     padding: 12px;
@@ -418,7 +422,7 @@ input{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.form-part3{
+.form-part3 {
     width: 100%;
     margin-top: 10px;
     padding: 12px;
@@ -430,11 +434,13 @@ input{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-select , option{
+
+select,
+option {
     opacity: 50%;
 }
 
-.calculate{
+.calculate {
     font-size: 1.4rem;
     font-weight: 500;
     margin-top: 30px;
@@ -534,7 +540,7 @@ footer {
     gap: 220px;
 }
 
-.footer-title > a {
+.footer-title>a {
     font-size: 1.5rem;
     font-weight: 900;
     font-style: italic;

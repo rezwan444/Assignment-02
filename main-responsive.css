@@ -341,8 +341,11 @@
     }
 
     .footer-title>a {
-        font-size: 2rem;
-        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .get-started {
+        font-size: 1.3rem;
     }
 
     .footer-content {
@@ -359,7 +362,7 @@
     .footer-section {
         flex-direction: column;
         padding-left: 10px;
-        gap: 70px;
+        gap: 50px;
     }
 
 
