@@ -435,10 +435,11 @@ input {
 }
 
 
-select,
-option {
+select , option{
     opacity: 50%;
+    color: black;
 }
+
 
 .calculate {
     font-size: 1.4rem;
